@@ -3,7 +3,6 @@ package aula10.exemploOO;
 public class Aluno {
 	String nome;
 	String sobrenome;
-	String matricula;
 	float[] notas = new float[3];
 
 	float calculaMedia(){
@@ -18,9 +17,7 @@ public class Aluno {
 		if(media>=mediaMinima){
 			return "aprovado";
 		}
-		else{
-			return "recuperação";
-		}
+		return "recuperação";
 	}
 
 	String obterDadosAluno(){

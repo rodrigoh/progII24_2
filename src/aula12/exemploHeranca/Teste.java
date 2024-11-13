@@ -21,8 +21,5 @@ public class Teste {
 		e1.setCrea("s525222");
 //		e1.seteMail("ana@gmail.com");
 		System.out.println(e1.obterDados());
-
-
-
 	}
 }

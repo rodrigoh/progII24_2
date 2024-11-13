@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a2d695ae-a3b7-475a-8f1e-51453f62c037" name="Changes" comment="Exercício Conta com herança. (incompleto)">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progII24_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula13/exemploFinal/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula13/exemploFinal/ExemploUm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula13/exemploFinal/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula13/exemploFinal/Teste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula13/exemploPolimorfismo/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula13/exemploPolimorfismo/Teste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula13/exemploPolimorfismoOverrice/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula13/exemploPolimorfismoOverrice/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula13/exemploPolimorfismoOverrice/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula12/exemploHeranca/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula12/exemploHeranca/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula12/exercicioConta/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula12/exercicioConta/Banco.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rodrigoh&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rodrigoh/progII24_2.git&quot;,
+    &quot;accountId&quot;: &quot;0e9bb241-325d-4aca-a92d-470fbc9935f4&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2kLxI0XU8I6Zk7NjAliCQVwPE9q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Banco.executor": "Run",
+    "Application.Exemplo.executor": "Run",
+    "Application.Exemplo01.executor": "Run",
+    "Application.Exemplo02.executor": "Run",
+    "Application.Exemplo03.executor": "Run",
+    "Application.Exemplo1.executor": "Run",
+    "Application.Exemplo2.executor": "Run",
+    "Application.Exemplo3.executor": "Run",
+    "Application.Exemplo4.executor": "Run",
+    "Application.Exemplo5.executor": "Run",
+    "Application.Exercicio01.executor": "Run",
+    "Application.Exercicio02.executor": "Run",
+    "Application.Exercicio03.executor": "Run",
+    "Application.Exercicio05.executor": "Run",
+    "Application.Exercicio06.executor": "Run",
+    "Application.Exercicio07.executor": "Run",
+    "Application.Exercicio08.executor": "Run",
+    "Application.Exercicio09.executor": "Run",
+    "Application.Exercicio1.executor": "Run",
+    "Application.Exercicio10.executor": "Run",
+    "Application.Exercicio11.executor": "Run",
+    "Application.Exercicio12.executor": "Run",
+    "Application.Exercicio13.executor": "Run",
+    "Application.Exercicio14.executor": "Run",
+    "Application.Exercicio18.executor": "Run",
+    "Application.Exercicio3.executor": "Run",
+    "Application.Exercicio3_4.executor": "Run",
+    "Application.Exercicio5.executor": "Run",
+    "Application.Exercicio6.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Teste.executor": "Run",
+    "Application.aula04.exemploCase.Exemplo1.executor": "Run",
+    "Application.aula05.exemploDoWhile.Exemplo1.executor": "Run",
+    "Application.aula05.exemploDoWhile.Exemplo2.executor": "Run",
+    "Application.aula05.exemplosFor.Exemplo2.executor": "Run",
+    "Application.aula05.exemplosFor.Exemplo3.executor": "Run",
+    "Application.aula10.exemploOO.exemplo02.Main.executor": "Run",
+    "Application.aula10.exemploOO.exercicio01.Main.executor": "Run",
+    "Application.aula11.exemploEncapsulamento.Banco.executor": "Run",
+    "Application.aula11.exemploStatic.Main.executor": "Run",
+    "Application.aula12.exercicioConta.Banco.executor": "Run",
+    "Application.aula13.exemploFinal.Teste.executor": "Run",
+    "Application.aula13.exemploPolimorfismo.Teste.executor": "Run",
+    "Application.aula13.exemploPolimorfismoOverrice.Teste.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/rodri/IdeaProjects/progIII24_2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="aula12.exercicioConta" />
+      <recent name="aula11.exemploEncapsulamento" />
+      <recent name="aula11.exemploModificadoresDois" />
+      <recent name="aula11.exemploStatic" />
+      <recent name="aula10.exemploOO.exemplo02" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.aula13.exemploPolimorfismoOverrice.Teste">
+    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula12.exemploHeranca.Teste" />
+      <module name="progII24_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aula12.exemploHeranca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aula12.exercicioConta.Banco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula12.exercicioConta.Banco" />
+      <module name="progII24_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aula12.exercicioConta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aula13.exemploFinal.Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula13.exemploFinal.Teste" />
+      <module name="progII24_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aula13.exemploFinal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aula13.exemploPolimorfismoOverrice.Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula13.exemploPolimorfismoOverrice.Teste" />
+      <module name="progII24_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aula13.exemploPolimorfismoOverrice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aula13.exemploPolimorfismo.Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula13.exemploPolimorfismo.Teste" />
+      <module name="progII24_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aula13.exemploPolimorfismo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.aula13.exemploPolimorfismoOverrice.Teste" />
+        <item itemvalue="Application.aula13.exemploPolimorfismo.Teste" />
+        <item itemvalue="Application.aula13.exemploFinal.Teste" />
+        <item itemvalue="Application.aula12.exercicioConta.Banco" />
+        <item itemvalue="Application.Teste" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2d695ae-a3b7-475a-8f1e-51453f62c037" name="Changes" comment="" />
+      <created>1723076613412</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723076613412</updated>
+      <workItem from="1723076614643" duration="3615000" />
+      <workItem from="1723160292860" duration="1377000" />
+      <workItem from="1723675347276" duration="236000" />
+      <workItem from="1724883604763" duration="9323000" />
+      <workItem from="1724970666182" duration="36000" />
+      <workItem from="1725488795310" duration="9044000" />
+      <workItem from="1725622908773" duration="15000" />
+      <workItem from="1726093781610" duration="8529000" />
+      <workItem from="1726180621590" duration="32000" />
+      <workItem from="1726698085412" duration="10043000" />
+      <workItem from="1726762898172" duration="955000" />
+      <workItem from="1727302902938" duration="10697000" />
+      <workItem from="1727366985255" duration="70000" />
+      <workItem from="1728512536447" duration="9462000" />
+      <workItem from="1728646128627" duration="1195000" />
+      <workItem from="1729117576100" duration="9077000" />
+      <workItem from="1729204977055" duration="426000" />
+      <workItem from="1729722296552" duration="6718000" />
+      <workItem from="1729787796110" duration="92000" />
+      <workItem from="1729789037380" duration="1303000" />
+      <workItem from="1730931331598" duration="8707000" />
+      <workItem from="1731019659000" duration="35000" />
+    </task>
+    <task id="LOCAL-00001" summary="Exemplos aula 1, ler e imprimir informações">
+      <option name="closed" value="true" />
+      <created>1724890163016</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724890163016</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Correção dos exercícios">
+      <option name="closed" value="true" />
+      <created>1724890186140</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724890186140</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Exemplos estruturas de seleção if...else, switch..case">
+      <option name="closed" value="true" />
+      <created>1724894242675</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724894242675</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Correção dos exercícios 14 e 18 sobre seleção">
+      <option name="closed" value="true" />
+      <created>1725495444319</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725495444319</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Exemplos estrutura de repetição, while, do..while e for">
+      <option name="closed" value="true" />
+      <created>1725495476126</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725495476126</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Exemplo de for aplicado a letras">
+      <option name="closed" value="true" />
+      <created>1725497968173</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725497968173</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Exemplos de vetores e como gerar números aleatórios.">
+      <option name="closed" value="true" />
+      <created>1726101788485</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726101788485</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Correção dos exercícios de vetores">
+      <option name="closed" value="true" />
+      <created>1726763545766</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726763545766</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Exemplos de matrizes">
+      <option name="closed" value="true" />
+      <created>1726763559158</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726763559158</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Correção dos exercícios de matrizes">
+      <option name="closed" value="true" />
+      <created>1727313680663</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727313680663</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Exemplos de métodos">
+      <option name="closed" value="true" />
+      <created>1727313700516</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727313700516</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Correção dos exercícios">
+      <option name="closed" value="true" />
+      <created>1728516877446</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728516877446</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Exemplos métodos">
+      <option name="closed" value="true" />
+      <created>1728516899322</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728516899322</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Exemplos Orientação a Objetos">
+      <option name="closed" value="true" />
+      <created>1728522130123</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728522130123</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Exemplos Orientação a Objetos">
+      <option name="closed" value="true" />
+      <created>1729126457285</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1729126457285</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Exemplos modificador static, modificadores de acesso, encapsulamento.">
+      <option name="closed" value="true" />
+      <created>1729126508468</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1729126508468</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Exemplos Herança">
+      <option name="closed" value="true" />
+      <created>1729724901314</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1729724901314</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Exercício Conta com herança. (incompleto)">
+      <option name="closed" value="true" />
+      <created>1729732570778</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1729732570778</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exemplos aula 1, ler e imprimir informações" />
+    <MESSAGE value="Exemplos estruturas de seleção if...else, switch..case" />
+    <MESSAGE value="Correção dos exercícios 14 e 18 sobre seleção" />
+    <MESSAGE value="Exemplos estrutura de repetição, while, do..while e for" />
+    <MESSAGE value="Exemplo de for aplicado a letras" />
+    <MESSAGE value="Exemplos de vetores e como gerar números aleatórios." />
+    <MESSAGE value="Correção dos exercícios de vetores" />
+    <MESSAGE value="Exemplos de matrizes" />
+    <MESSAGE value="Correção dos exercícios de matrizes" />
+    <MESSAGE value="Exemplos de métodos" />
+    <MESSAGE value="Correção dos exercícios" />
+    <MESSAGE value="Exemplos métodos" />
+    <MESSAGE value="Exemplos Orientação a Objetos" />
+    <MESSAGE value="Exemplos modificador static, modificadores de acesso, encapsulamento." />
+    <MESSAGE value="Exemplos Herança" />
+    <MESSAGE value="Exercício Conta com herança. (incompleto)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercício Conta com herança. (incompleto)" />
+  </component>
+</project>

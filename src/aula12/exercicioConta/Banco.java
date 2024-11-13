@@ -99,6 +99,52 @@ public class Banco {
 		ContaPoupanca[] listaCP = new ContaPoupanca[100];
 		int contCC=0;
 		int contCP=0;
+		String opc;
+		do{
+			System.out.println("Bem vindo ao Banco sem nome, selecione uma opção ");
+			System.out.println("cc - cadastrar conta corrente");
+			System.out.println("cp - cadastrar conta poupança");
+			System.out.println("a - acessar conta");
+			System.out.println("s - sair");
+			opc = leString("->");
+			switch (opc){
+				case "cc"->{
+					listaCC[contCC] = cadastraContaCorrente();
+					System.out.println("Conta cadastrada obteve o id "+listaCC[contCC].getIdentificador());
+					contCC++;
+				}
+				case "cp"->{
+					listaCP[contCP] = cadastraContaPoupanca();
+					System.out.println("Conta cadastrada obteve o id "+listaCP[contCP].getIdentificador());
+					contCP++;
+				}
+				case "a"->{
+					int posCC = -1;
+					int posCP = -1;
+					String id = leString("Entre com o identificador");
+					String senha = leString("Qual a senha");
+					for(int i=0;i<contCC;i++){
+						if(listaCC[i].validaAcesso(id,senha)){
+							posCC = i;
+						}
+					}
+					for(int i=0;i<contCP;i++){
+						if(listaCP[i].validaAcesso(id,senha)){
+							posCP = i;
+						}
+					}
+					if(posCC!=-1){
+						listaCC[posCC] = acessaContaCorrente(listaCC[posCC]);
+					}
+					else if(posCP!=-1){
+						listaCP[posCP] = acessaContaPoupanca(listaCP[posCP]);
+					}
+					else{
+						System.out.println("Identificador ou senha inválidos");
+					}
+				}
+			}
+		}
+		while (!opc.equals("s"));
 	}
-
 }

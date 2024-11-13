@@ -4,27 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2d695ae-a3b7-475a-8f1e-51453f62c037" name="Changes" comment="Exercício Conta com herança. (incompleto)">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progII24_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula13/exemploFinal/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula13/exemploFinal/ExemploUm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula13/exemploFinal/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula13/exemploFinal/Teste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula13/exemploPolimorfismo/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula13/exemploPolimorfismo/Teste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula13/exemploPolimorfismoOverrice/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula13/exemploPolimorfismoOverrice/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula13/exemploPolimorfismoOverrice/Teste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aula12/exemploHeranca/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula12/exemploHeranca/Teste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aula12/exercicioConta/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula12/exercicioConta/Banco.java" afterDir="false" />
+    <list default="true" id="a2d695ae-a3b7-475a-8f1e-51453f62c037" name="Changes" comment="Exemplos final e polimorfismo">
+      <change afterPath="$PROJECT_DIR$/src/aula14/exemploAbtrato/Circulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula14/exemploAbtrato/Figura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula14/exemploAbtrato/Quadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula14/exemploAbtrato/Teste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula14/exemploAbtrato/Triangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula14/exemploExcecoes/ExemploDois.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula14/exemploExcecoes/ExemploUm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +64,8 @@
     "Application.Exemplo3.executor": "Run",
     "Application.Exemplo4.executor": "Run",
     "Application.Exemplo5.executor": "Run",
+    "Application.ExemploDois.executor": "Run",
+    "Application.ExemploUm.executor": "Run",
     "Application.Exercicio01.executor": "Run",
     "Application.Exercicio02.executor": "Run",
     "Application.Exercicio03.executor": "Run",
@@ -138,39 +128,39 @@
       <recent name="aula10.exemploOO.exemplo02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.aula13.exemploPolimorfismoOverrice.Teste">
+  <component name="RunManager" selected="Application.Teste">
+    <configuration name="ExemploDois" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula14.exemploExcecoes.ExemploDois" />
+      <module name="progII24_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aula14.exemploExcecoes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExemploUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula14.exemploExcecoes.ExemploUm" />
+      <module name="progII24_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aula14.exemploExcecoes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula12.exemploHeranca.Teste" />
+      <option name="MAIN_CLASS_NAME" value="aula14.exemploAbtrato.Teste" />
       <module name="progII24_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula12.exemploHeranca.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="aula12.exercicioConta.Banco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula12.exercicioConta.Banco" />
-      <module name="progII24_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aula12.exercicioConta.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="aula13.exemploFinal.Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula13.exemploFinal.Teste" />
-      <module name="progII24_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aula13.exemploFinal.*" />
+          <option name="PATTERN" value="aula14.exemploAbtrato.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Teste" />
+        <item itemvalue="Application.ExemploDois" />
+        <item itemvalue="Application.ExemploUm" />
         <item itemvalue="Application.aula13.exemploPolimorfismoOverrice.Teste" />
         <item itemvalue="Application.aula13.exemploPolimorfismo.Teste" />
-        <item itemvalue="Application.aula13.exemploFinal.Teste" />
-        <item itemvalue="Application.aula12.exercicioConta.Banco" />
-        <item itemvalue="Application.Teste" />
       </list>
     </recent_temporary>
   </component>
@@ -252,6 +242,7 @@
       <workItem from="1729789037380" duration="1303000" />
       <workItem from="1730931331598" duration="8707000" />
       <workItem from="1731019659000" duration="35000" />
+      <workItem from="1731536580209" duration="5464000" />
     </task>
     <task id="LOCAL-00001" summary="Exemplos aula 1, ler e imprimir informações">
       <option name="closed" value="true" />
@@ -397,7 +388,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729732570778</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Exemplos final e polimorfismo">
+      <option name="closed" value="true" />
+      <created>1731537057959</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1731537057959</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,6 +419,7 @@
     <MESSAGE value="Exemplos modificador static, modificadores de acesso, encapsulamento." />
     <MESSAGE value="Exemplos Herança" />
     <MESSAGE value="Exercício Conta com herança. (incompleto)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercício Conta com herança. (incompleto)" />
+    <MESSAGE value="Exemplos final e polimorfismo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exemplos final e polimorfismo" />
   </component>
 </project>

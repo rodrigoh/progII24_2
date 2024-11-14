@@ -1,5 +1,10 @@
 package aula14.exemploAbtrato;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Triangulo extends Figura{
 	private double base;
 	private double altura;

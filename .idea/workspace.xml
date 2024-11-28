@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2d695ae-a3b7-475a-8f1e-51453f62c037" name="Changes" comment="Exemplos abstratas">
-      <change afterPath="$PROJECT_DIR$/src/aula14/exemploHerancaMultipla/Veiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula14/exemploHerancaMultipla/VeiculoAnfibio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula14/exemploHerancaMultipla/VeiculoAquatico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula14/exemploHerancaMultipla/VeiculoTerrestre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula14/exemploInterface/Lista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula14/exemploInterface/Teste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula14/exemploInterface/Vetor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a2d695ae-a3b7-475a-8f1e-51453f62c037" name="Changes" comment="Exemplos interfaces, herança múltipla, javaDoc">
+      <change afterPath="$PROJECT_DIR$/src/aula15/classeLista/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula15/classeLista/Teste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula15/exemploCollections/ExemploArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula15/exemploCollections/ExemploHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula15/exemploCollections/ExemploQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula15/exemploCollections/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula15/exemploMap/ExemploHashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aula14/exemploAbtrato/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula14/exemploAbtrato/Triangulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,11 @@
     "Application.Exemplo3.executor": "Run",
     "Application.Exemplo4.executor": "Run",
     "Application.Exemplo5.executor": "Run",
+    "Application.ExemploArrayList.executor": "Run",
     "Application.ExemploDois.executor": "Run",
+    "Application.ExemploHashMap.executor": "Run",
+    "Application.ExemploHashSet.executor": "Run",
+    "Application.ExemploQueue.executor": "Run",
     "Application.ExemploUm.executor": "Run",
     "Application.Exercicio01.executor": "Run",
     "Application.Exercicio02.executor": "Run",
@@ -132,13 +134,13 @@
       <recent name="aula10.exemploOO.exemplo02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.aula14.exemploInterface.Teste">
-    <configuration name="ExemploDois" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula14.exemploExcecoes.ExemploDois" />
+  <component name="RunManager" selected="Application.Teste">
+    <configuration name="ExemploArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula15.exemploCollections.ExemploArrayList" />
       <module name="progII24_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula14.exemploExcecoes.*" />
+          <option name="PATTERN" value="aula15.exemploCollections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +148,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExemploUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula14.exemploExcecoes.ExemploUm" />
+    <configuration name="ExemploHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula15.exemploMap.ExemploHashMap" />
       <module name="progII24_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula14.exemploExcecoes.*" />
+          <option name="PATTERN" value="aula15.exemploMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExemploHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula15.exemploCollections.ExemploHashSet" />
+      <module name="progII24_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aula15.exemploCollections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExemploQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula15.exemploCollections.ExemploQueue" />
+      <module name="progII24_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aula15.exemploCollections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,37 +188,11 @@
       </method>
     </configuration>
     <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula14.exemploAbtrato.Teste" />
+      <option name="MAIN_CLASS_NAME" value="aula15.classeLista.Teste" />
       <module name="progII24_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula14.exemploAbtrato.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="aula13.exemploPolimorfismoOverrice.Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula13.exemploPolimorfismoOverrice.Teste" />
-      <module name="progII24_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aula13.exemploPolimorfismoOverrice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="aula14.exemploInterface.Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula14.exemploInterface.Teste" />
-      <module name="progII24_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aula14.exemploInterface.*" />
+          <option name="PATTERN" value="aula15.classeLista.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.aula14.exemploInterface.Teste" />
         <item itemvalue="Application.Teste" />
-        <item itemvalue="Application.ExemploDois" />
-        <item itemvalue="Application.ExemploUm" />
-        <item itemvalue="Application.aula13.exemploPolimorfismoOverrice.Teste" />
+        <item itemvalue="Application.ExemploHashMap" />
+        <item itemvalue="Application.ExemploQueue" />
+        <item itemvalue="Application.ExemploHashSet" />
+        <item itemvalue="Application.ExemploArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +248,10 @@
       <workItem from="1729789037380" duration="1303000" />
       <workItem from="1730931331598" duration="8707000" />
       <workItem from="1731019659000" duration="35000" />
-      <workItem from="1731536580209" duration="9668000" />
+      <workItem from="1731536580209" duration="9938000" />
+      <workItem from="1731935040969" duration="565000" />
+      <workItem from="1732230687326" duration="19000" />
+      <workItem from="1732747086699" duration="8086000" />
     </task>
     <task id="LOCAL-00001" summary="Exemplos aula 1, ler e imprimir informações">
       <option name="closed" value="true" />
@@ -408,7 +413,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731542175508</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Exemplos interfaces, herança múltipla, javaDoc">
+      <option name="closed" value="true" />
+      <created>1731546535407</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1731546535407</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,6 +446,7 @@
     <MESSAGE value="Exercício Conta com herança. (incompleto)" />
     <MESSAGE value="Exemplos final e polimorfismo" />
     <MESSAGE value="Exemplos abstratas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exemplos abstratas" />
+    <MESSAGE value="Exemplos interfaces, herança múltipla, javaDoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exemplos interfaces, herança múltipla, javaDoc" />
   </component>
 </project>
